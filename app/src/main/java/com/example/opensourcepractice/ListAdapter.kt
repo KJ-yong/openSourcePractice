@@ -8,7 +8,7 @@ import android.widget.BaseAdapter
 import com.example.opensourcepractice.databinding.ListViewBinding
 
 class ListAdapter (private val context : Context) : BaseAdapter(){
-    private val list = arrayListOf<String>()
+    private var list = arrayListOf<String>()
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
         val binding = ListViewBinding.inflate(LayoutInflater.from(context),parent,false)
         binding.item = list[position]
@@ -24,5 +24,11 @@ class ListAdapter (private val context : Context) : BaseAdapter(){
 
     override fun getItemId(position: Int): Long {
         return 0
+    }
+    fun addItem(string : String){
+        list.add(string)
+    }
+    fun setList(datalist : ArrayList<String>){
+        list = datalist
     }
 }

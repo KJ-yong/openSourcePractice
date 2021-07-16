@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "466828484312",
+    "project_id": "open-source-practice",
+    "storage_bucket": "open-source-practice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:466828484312:android:09bd15139c4c8e941341ad",
+        "android_client_info": {
+          "package_name": "com.example.opensourcepractice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "466828484312-h6100mbuov9viv8psfvvg5p1sur2ds9s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.opensourcepractice",
+            "certificate_hash": "6df3bc641b283d136b3e0f24ff050ecb5143c44c"
+          }
+        },
+        {
+          "client_id": "466828484312-b4bufu1gk302ea3tftgp1fa50in2dff6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR1684hdmc7ainJbPeco_m9RFutpO6PAw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "466828484312-b4bufu1gk302ea3tftgp1fa50in2dff6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -9,4 +9,7 @@
     <string name="main_navigation_item2">calculator</string>
     <string name="main_navigation_item3">Timer</string>
     <string name="list_edit_text">아이템 입력</string>
+    <string name="stopwatch_button1">Start</string>
+    <string name="stopwatch_button2">Stop</string>
+    <string name="stopwatch_button3">Pause</string>
 </resources>
